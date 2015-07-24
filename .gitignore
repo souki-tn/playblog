@@ -5,3 +5,6 @@ target
 tmp
 dist
 .cache
+.sbtserver/
+project/.sbtserver*
+project/*.sbt

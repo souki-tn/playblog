@@ -1,7 +1,6 @@
-@(message: String)
+@(message: String)(implicit messages: Messages)
+@import play.api.i18n._
 
 @main("Welcome to Play") {
-
-    @play20.welcome(message)
-
+	@Messages("hello.world")
 }
