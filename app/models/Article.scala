@@ -1,5 +1,3 @@
-package model
+package models
 
-class Article {
-	
-}
+case class Article(id: Long, title: String, body: String) {}
